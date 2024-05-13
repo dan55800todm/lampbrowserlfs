@@ -60,7 +60,7 @@ class ToolBar(QToolBar):
 
         button_refresh = self.addAction("Refresh")
         button_refresh.setIcon(QIcon("assets/icons/refresh.svg"))
-        button_refresh.setToolTip("Refresh")
+        button_refresh.setToolTip("Refresh Page")
         button_refresh.triggered.connect(self.parent.main.reload)
 
         label = QLabel()
