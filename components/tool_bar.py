@@ -69,6 +69,6 @@ class ToolBar(QToolBar):
 
         self.url_edit = QLineEdit()
         self.url_edit.returnPressed.connect(lambda: self.parent.main.navigate(self.url_edit.text()))
-        self.url_edit.setPlaceholderText("Start a search or enter a site URL...")
+        self.url_edit.setPlaceholderText("Start your search using google.com or enter the site's URL...")
         self.url_edit.setFont(QFont("Poppins", 11))
         self.addWidget(self.url_edit)
