@@ -10,7 +10,7 @@ import sys
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("The Lamp Browser 1.4")
+        self.setWindowTitle("The Lamp Browser 1.5")
         self.setWindowIcon(QIcon("assets/brand/lampico.ico"))
 
         self.setMinimumSize(800, 600)
