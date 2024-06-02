@@ -1,3 +1,4 @@
+# !!! Разработка этого продукта остановлена ​​на неопределенный срок. !!!
 # Lamp Browser
 
 [*English*](https://github.com/dan55800todm/lampbrowserlfs/blob/master/README.md)
